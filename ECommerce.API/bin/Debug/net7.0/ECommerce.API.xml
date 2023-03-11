@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ECommerce.API</name>
+    </assembly>
+    <members>
+        <member name="M:ECommerce.WebApi.Controllers.AccountController.AuthenticateAsync(ECommerce.Application.DTOs.Account.AuthenticationRequest)">
+             <summary>
+             Authentication / login User.
+             </summary>
+             <param name="request"></param>
+             <returns>Authenticated User</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/Account/Authenticate
+                 {
+                     "email": "user@example.com",
+                     "password": "string",
+                      
+                  }
+            
+             </remarks>
+             <response code="200">Returns Authenticated User</response>
+             <response code="400">If the user login detail is null</response>
+             <response code="500">If error occurs</response>
+        </member>
+        <member name="M:ECommerce.WebApi.Controllers.AccountController.RegisterAsync(ECommerce.Application.DTOs.Account.RegisterRequest)">
+             <summary>
+             Register a new User.
+             </summary>
+             <param name="request"></param>
+             <returns>A newly created new User Account</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/Account/register
+                 {
+                      "email": "user@example.com",
+                      "password": "string",
+                      "confirmPassword": "string"
+                  }
+            
+             </remarks>
+             <response code="201">Returns the newly Register new User</response>
+             <response code="400">If the user login detail is null</response>
+             <response code="500">If error occurs</response>
+        </member>
+        <member name="M:ECommerce.WebApi.Controllers.V1.OrderController.Post(ECommerce.Application.Features.Orders.Commands.CreateOrderCommand)">
+             <summary>
+             Create a new Order.
+             </summary>
+             <param name="command"></param>
+             <returns>A newly created new Order</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/v1.0/order
+                 {
+                     "orderNo": "string",
+                     "userId": "string"
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created Order</response>
+             <response code="400">If the user Order detail is null</response>
+             <response code="500">If error occurs</response>
+        </member>
+        <member name="M:ECommerce.WebApi.Controllers.V1.OrderController.Get(System.Int32)">
+             <summary>
+             Retrieve the order by their ID.
+             </summary>
+             <param name="id">The ID of the desired order</param>
+             <returns>A string status</returns>
+             <remarks>
+             Sample request:
+            
+                 GET /api/v1.0/order/1
+            
+             </remarks>
+             <response code="200">Returns order for desire id</response>
+        </member>
+        <member name="M:ECommerce.WebApi.Controllers.V1.OrderController.Checkout(ECommerce.Application.Features.OrderDetail.Commands.Checkout.CheckoutOrderCommand)">
+             <summary>
+             Checkout order.
+             </summary>
+             <param name="command">The ID of the desired order</param>
+             <returns>A string status</returns>
+             <remarks>
+             Sample request:
+            
+                 GET /api/v1.0/order/checkout
+            
+             </remarks>
+             <response code="200">Returns order for desire id</response>
+        </member>
+        <member name="M:ECommerce.WebApi.Controllers.V1.OrderItemController.Post(ECommerce.Application.Features.OrderDetail.Commands.CreateOrderDetail.CreateOrderItemCommand)">
+             <summary>
+             Create a new Order Item.
+             </summary>
+             <param name="command"></param>
+             <returns>A newly created new Order Item</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/v1.0/OrderItem
+                 {
+                     "orderNo": "string",
+                     "userId": "string"
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created Order Detail</response>
+             <response code="400">If the user Order detail is null</response>
+             <response code="500">If error occurs</response>
+        </member>
+        <member name="M:ECommerce.WebApi.Controllers.V1.OrderItemController.Delete(System.Int32)">
+             <summary>
+             delete order item by their ID.
+             </summary>
+             <param name="id">The ID of the desired order item</param>
+             <returns>A string status</returns>
+             <remarks>
+             Sample request:
+            
+                 GET /api/v1.0/OrderItem/1
+            
+             </remarks>
+             <response code="200">Returns deleted id</response>
+        </member>
+        <member name="M:ECommerce.WebApi.Controllers.V1.OrderItemController.Get(System.Int32)">
+             <summary>
+             Retrieve the order item by their ID.
+             </summary>
+             <param name="id">The ID of the desired order item</param>
+             <returns>A string status</returns>
+             <remarks>
+             Sample request:
+            
+                 GET /api/v1.0/OrderItem/1
+            
+             </remarks>
+             <response code="200">Returns order item per id</response>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ECommerce.WebApi.Controllers.V1.ProductController.Get(ECommerce.Application.Features.Products.Queries.GetAllProducts.GetAllProductsParameter)" -->
+        <member name="M:ECommerce.WebApi.Controllers.V1.ProductController.Get(System.Int32)">
+             <summary>
+             Retrieve the product by their ID.
+             </summary>
+             <param name="id">The ID of the desired Product</param>
+             <returns>A string status</returns>
+             <remarks>
+             Sample request:
+            
+                 GET /api/v1/Product/1
+            
+             </remarks>
+             <response code="200">Returns all Products</response>
+        </member>
+    </members>
+</doc>

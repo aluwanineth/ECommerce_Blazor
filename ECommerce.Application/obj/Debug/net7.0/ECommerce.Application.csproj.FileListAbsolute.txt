@@ -1,0 +1,15 @@
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.deps.json
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.dll
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Application.pdb
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Domain.dll
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\bin\Debug\net7.0\ECommerce.Domain.pdb
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.AssemblyReference.cache
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.AssemblyInfoInputs.cache
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.AssemblyInfo.cs
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.csproj.CopyComplete
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.dll
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\refint\ECommerce.Application.dll
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ECommerce.Application.pdb
+C:\Users\ANethavhakon\source\repos\ECommerce\ECommerce.Application\obj\Debug\net7.0\ref\ECommerce.Application.dll
